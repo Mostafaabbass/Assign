@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cont {
+    height: 100vh;
+    width: 100%;
+    background-color: #eee;
+    text-align: center;
+    padding: 50px;
+}
+
+
+h1 {
+    /* margin-top: 0; */
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    color: #0866ff;
+    margin-bottom: 12px;
+}
+
+h3 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-weight: lighter;
+}
+
+form {
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    margin: 0px auto;
+    border-radius: 8px;
+    width: 80%;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, .1), 0px 8px 16px rgba(0, 0, 0, .1);
+}
+
+form input {
+    display: block;
+    padding: 14px;
+    font-size: 16px;
+    border-radius: 6px;
+    margin: 10px auto;
+    border: 1px solid #ccc;
+    width: 96%;
+}
+
+.f:focus {
+    border-color: #0866ff;
+    box-shadow: 0 0 0 2px #e7f3ff;
+    caret-color: #0866ff;
+}
+
+form #butt {
+    background-color: #0866ff;
+    padding: 12px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#butt:hover {
+    background-color: #1877f2;
+}
+
+form a {
+    display: block;
+    color: #0866ff;
+    font-size: 14px;
+    text-decoration: none;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+
+
+#create {
+    border-radius: 4px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    background-color: #42b72a;
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    font-weight: bold;
+}
+
+#create:hover {
+    background-color: #36a420;
+    border-color: #36a420;
+}
+
+.bot {
+    margin-top: 16px;
+    
+}
+.bot a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+.bot p{
+    display: inline;
+    font-size: 15px;
+}
+a:hover {
+    text-decoration: solid;
+}
